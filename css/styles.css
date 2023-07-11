@@ -94,32 +94,33 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.h2-headings {
+.heading {
   color: var(--primarycolor);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 .team {
-  background-color: var(--whitecolor);
+  background-color: #f4f4fd;
 }
-.team h3 {
+.name {
   color: var(--primarycolor);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.team p {
+.description {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.team li {
-  background-color: var(--whitecolor);
+.team .list {
+  background-color: #ffffff;
 }
 .footer {
   background-color: var(--primarycolor);
