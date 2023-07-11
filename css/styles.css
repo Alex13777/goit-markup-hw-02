@@ -29,7 +29,7 @@ a {
 .Studio {
   color: var(--primarycolor);
 }
-.list .link {
+.link-header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -125,17 +125,20 @@ a {
 .footer {
   background-color: var(--primarycolor);
 }
-.footer .logo {
+.footer .link {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--whitecolor);
+  color: var(--secondarycolor);
 }
-.footer p {
-  color: var(--whitecolor);
+.studia {
+  color: #f4f4fd;
+}
+.logo {
+  color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
