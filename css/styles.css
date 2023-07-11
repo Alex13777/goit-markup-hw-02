@@ -29,7 +29,7 @@ a {
 .Studio {
   color: var(--primarycolor);
 }
-.list .list-header {
+.link-header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -37,23 +37,23 @@ a {
   color: #2e2f42;
   list-style: none;
 }
-.list .list-header:hover,
-.list .list-header:focus,
-.list .list-header:active {
+.link-header:hover,
+.link-header:focus,
+.link-header:active {
   color: #404bbf;
 }
 .adress {
   font-style: normal;
 }
-.adress .list {
+.adress .link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: inherit;
 }
-.adress .list:hover,
-.adress .list:focus,
-.adress .list:active {
+.adress .list .link:hover,
+.adress .list .link:focus,
+.adress .list .link:active {
   color: #404bbf;
 }
 .main-section {
