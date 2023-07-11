@@ -144,22 +144,27 @@ a {
   letter-spacing: 0.02em;
 }
 .button-list {
-  background-color: #e7e9fc;
+  background-color: #f4f4fd;
   color: var(--secondarycolor);
   text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 .button-list:hover,
 .button-list:focus,
 .button-list:active {
-  background-color: var(--secondarycolor);
+  background-color: #404bbf;
   color: var(--whitecolor);
 }
-.photo-link h3 {
+.list .link {
+  text-decoration: none;
+  color: inherit;
+}
+.heading-portfolio {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
