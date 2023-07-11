@@ -6,7 +6,7 @@
 }
 body {
   font-family: var(--primaryfont);
-  color: var(--primarycolor);
+  color: #434455;
   background-color: var(--whitecolor);
 }
 
@@ -16,34 +16,37 @@ a {
   list-style-type: none;
   text-decoration: none;
 }
-.Web {
-  color: var(--secondarycolor);
-}
-.nav .logo {
+.nav .link-logo {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  text-decoration: none;
 }
-.header-list .link {
+.Studio {
+  color: var(--primarycolor);
+}
+.list .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: inherit;
+  list-style: none;
 }
-.header-list .link:hover,
-.header-list .link:focus,
-.header-list .link:active {
+.list .link:hover,
+.list .link:focus,
+.list .link:active {
   color: var(--secondarycolor);
 }
 
 .adress .link {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: inherit;
   font-style: normal;
 }
@@ -60,7 +63,7 @@ a {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .button {
@@ -69,7 +72,7 @@ a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .button:hover,
@@ -81,20 +84,20 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .features-list p {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .h2-headings {
   color: var(--primarycolor);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .team {
@@ -105,13 +108,13 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .team p {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .team li {
   background-color: var(--whitecolor);
@@ -125,14 +128,14 @@ a {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--whitecolor);
 }
 .footer p {
   color: var(--whitecolor);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .button-list {
   background-color: #e7e9fc;
@@ -141,7 +144,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.02em;
   cursor: pointer;
 }
 .button-list:hover,
@@ -154,7 +157,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: inherit;
 }
 .photo-link {
@@ -164,5 +167,5 @@ a {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
