@@ -29,17 +29,19 @@ a {
 .Studio {
   color: var(--primarycolor);
 }
-.link-header {
-  font-weight: 500;
+.nav .list .link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
   list-style: none;
+  text-transform: none;
+  font-weight: 500;
+  text-decoration: none;
 }
-.link-header:hover,
-.link-header:focus,
-.link-header:active {
+.nav .list .link:hover,
+.nav .list .link:focus,
+.nav .list .link:active {
   color: #404bbf;
 }
 .adress {
