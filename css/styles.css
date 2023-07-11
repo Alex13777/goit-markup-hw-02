@@ -1,11 +1,13 @@
 :root {
   --primaryfont: "Roboto", sans-serif;
   --primarycolor: #2e2f42;
+  --whitecolor: #ffffff;
+  --secondarycolor: #4d5ae5;
 }
 body {
   font-family: var(--primaryfont);
   color: var(--primarycolor);
-  background-color: #ffffff;
+  background-color: var(--whitecolor);
 }
 
 ul,
@@ -15,7 +17,7 @@ a {
   text-decoration: none;
 }
 .Web {
-  color: #4d5ae5;
+  color: var(--secondarycolor);
 }
 .nav .logo {
   font-family: "Raleway", sans-serif;
@@ -35,7 +37,7 @@ a {
 .header-list .link:hover,
 .header-list .link:focus,
 .header-list .link:active {
-  color: #4d5ae5;
+  color: var(--secondarycolor);
 }
 
 .adress .link {
@@ -48,13 +50,13 @@ a {
 .adress .link:hover,
 .adress .link:focus,
 .adress .link:active {
-  color: #4d5ae5;
+  color: var(--secondarycolor);
 }
 .main-section {
   background-color: var(--primarycolor);
 }
 .page-title {
-  color: #ffffff;
+  color: var(--whitecolor);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -62,16 +64,17 @@ a {
   text-align: center;
 }
 .button {
-  background-color: #4d5ae5;
-  color: #ffffff;
+  background-color: var(--secondarycolor);
+  color: var(--whitecolor);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 4%;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
-  background-color: #404bbf;
+  background-color: var(--secondarycolor);
 }
 .features-list h3 {
   color: var(--primarycolor);
@@ -95,7 +98,7 @@ a {
   text-align: center;
 }
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--whitecolor);
 }
 .team h3 {
   color: var(--primarycolor);
@@ -111,7 +114,7 @@ a {
   letter-spacing: 2%;
 }
 .team li {
-  background-color: #ffffff;
+  background-color: var(--whitecolor);
 }
 .footer {
   background-color: var(--primarycolor);
@@ -123,28 +126,29 @@ a {
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 3%;
-  color: #f4f4fd;
+  color: var(--whitecolor);
 }
 .footer p {
-  color: #f4f4fd;
+  color: var(--whitecolor);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
 }
 .button-list {
   background-color: #e7e9fc;
-  color: #4d5ae5;
+  color: var(--secondarycolor);
   text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 4%;
+  cursor: pointer;
 }
 .button-list:hover,
 .button-list:focus,
 .button-list:active {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--secondarycolor);
+  color: var(--whitecolor);
 }
 .photo-link h3 {
   font-weight: 500;
